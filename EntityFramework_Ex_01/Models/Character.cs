@@ -11,7 +11,7 @@ namespace EntityFramework_Ex_01.Models
         public int Id { get; set; }
         public string Name { set; get; }
 
-        public int ProfuctionId { get; set; }
+        public int ProductionId { get; set; }
         public Production Production { get; set; }
 
 
